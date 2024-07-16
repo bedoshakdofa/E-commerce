@@ -1,0 +1,17 @@
+{
+    "name": "e-commrace",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.19.2",
+        "mongoose": "^5.13.22"
+    }
+}
