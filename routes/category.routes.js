@@ -1,5 +1,5 @@
 import express from "express";
-import * as category from "../controllers/category.js";
+import * as category from "../controller/category.js";
 import subCategoryRouter from "./subcategory.routes.js";
 import { validation } from "../middleware/validation.js";
 import {

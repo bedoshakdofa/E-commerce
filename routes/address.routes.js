@@ -1,5 +1,5 @@
 import express from "express";
-import * as addresses from "../controllers/address.js";
+import * as addresses from "../controller/address.js";
 import { allowedTo, auth } from "../middleware/auth.js";
 
 const addressRouter = express.Router();

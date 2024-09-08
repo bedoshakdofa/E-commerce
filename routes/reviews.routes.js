@@ -6,7 +6,7 @@ import {
     createReviewValidation,
     deleteReviewValidation,
     updateReviewValidation,
-} from "./reviews.validation.js";
+} from "../validation/reviews.validation.js";
 
 const reviewRouter = express.Router();
 

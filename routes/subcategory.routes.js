@@ -1,5 +1,5 @@
 import express from "express";
-import * as subCategory from "../controllers/subcategory.js";
+import * as subCategory from "../controller/subcategory.js";
 import { validation } from "../middleware/validation.js";
 import {
     addSubCategoryValidation,
