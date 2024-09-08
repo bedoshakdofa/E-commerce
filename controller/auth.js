@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { asyncHandler } from "../utils/errorHandling.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 import Jwt from "jsonwebtoken";
 import { userModel } from "../models/user.model.js";
 

@@ -1,5 +1,5 @@
 import { userModel } from "../models/user.model.js";
-import { asyncHandler } from "../utils/errorHandling.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 
 const addToWishList = asyncHandler(async (req, res, next) => {
     const { product } = req.body;

@@ -1,4 +1,4 @@
-import { asyncHandler } from "../utils/errorHandling.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 import { brandModel } from "../models/brand.model.js";
 import { addOne, deleteOne, updateOne } from "./factor.js";
 import { ApiFeatures } from "../utils/ApiFeatures.js";

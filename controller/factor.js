@@ -1,5 +1,5 @@
 import slugify from "slugify";
-import { asyncHandler } from "../utils/asyncHandler";
+import { asyncHandler } from "../utils/asyncHandler.js";
 export const addOne = (model, name) => {
     return asyncHandler(async (req, res, next) => {
         req.body.slug = slugify(req.body.name);

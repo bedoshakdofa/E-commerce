@@ -1,4 +1,4 @@
-import { asyncHandler } from "../utils/errorHandling.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 import { deleteOne } from "./factor.js";
 import { couponModel } from "../models/coupon.model.js";
 import qrcode from "qrcode";

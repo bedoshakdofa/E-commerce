@@ -1,5 +1,5 @@
 import { categoryModel } from "../models/category.model.js";
-import { asyncHandler } from "../utils/errorHandling.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 import { addOne, deleteOne, updateOne } from "./factor.js";
 import { ApiFeatures } from "../utils/ApiFeatures.js";
 

@@ -1,4 +1,4 @@
-import { asyncHandler } from "../utils/errorHandling.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 import { productModel } from "../models/product.model.js";
 import slugify from "slugify";
 import { deleteOne } from "./factor.js";

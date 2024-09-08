@@ -1,4 +1,4 @@
-import { asyncHandler } from "../utils/errorHandling.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 import { cartModel } from "../models/cart.model.js";
 import { productModel } from "../models/product.model.js";
 import { couponModel } from "../models/coupon.model.js";
